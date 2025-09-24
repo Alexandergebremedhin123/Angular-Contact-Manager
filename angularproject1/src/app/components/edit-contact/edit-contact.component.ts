@@ -10,7 +10,7 @@ import { ContactService } from 'src/app/services/contact.service';
 export class EditContactComponent {
   public loading: boolean=false;
   public contactId: string|null=null;
-  public contact:Name={} as Name;
+  public contact:Contact={} as Contact;
   public errorMessage: string|null=null;
 
 
