@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Name } from 'src/app/models/Name';
-import { RatingService } from 'src/app/services/rating.service';
+import { ContactService } from 'src/app/services/contact.service';
 @Component({
   selector: 'app-edit-contact',
   templateUrl: './edit-contact.component.html',
@@ -14,7 +14,7 @@ export class EditContactComponent {
   public errorMessage: string|null=null;
 
 
-constructor(private activatedRoute: ActivatedRoute,private contactService: RatingService
+constructor(private activatedRoute: ActivatedRoute,private contactService: ContactService
                 ,private router : Router){
 
 }
