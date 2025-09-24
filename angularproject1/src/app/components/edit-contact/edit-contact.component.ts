@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Name } from 'src/app/models/Name';
+import { Contact } from 'src/app/models/Contact';
 import { ContactService } from 'src/app/services/contact.service';
 @Component({
   selector: 'app-edit-contact',
