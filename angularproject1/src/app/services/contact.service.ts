@@ -9,7 +9,7 @@ import {group} from '../models/group'
 })
 export class ContactService {
 
-  private static serverUrl:string="http://localhost:9000";
+  private static serverUrl:string="https://angular-contact-manager.onrender.com";
 
   constructor(private httpClient:HttpClient) { }
 
