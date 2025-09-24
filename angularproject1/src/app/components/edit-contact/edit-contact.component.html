@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p class="h3 fw-bold text-primary">
+                Edit Contact
+            </p>
+            <h5>This is the Edit contact page</h5>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <form (submit)="updateState()">
+                <div class="mb-2">
+                    <input required="true" [(ngModel)]="contact.name" [value]="name.name" name="name" class="form-control" placeholder="Name" type="text">
+                </div>
+            
+                <div class="mb-2">
+                    <input class="btn btn-success" value="Update" type="submit">
+                    <a routerLink="/" class="btn btn-dark ms-2">Close</a>
+                 </div>
+            </form>
+        </div>
+   
+    </div>
+</div>
+ <!-- <pre>{{contact}}</pre>  -->

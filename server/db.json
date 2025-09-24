@@ -1,0 +1,33 @@
+{
+  "contacts": [
+    {
+      "id": "ru0343",
+      "name": "tina",
+      "company": "jimma institute of technology",
+      "email": "tina@gmail.com",
+      "title": "student",
+      "mobile": "0934324334",
+      "photo": "user.png",
+      "groupId": "2"
+    },
+    {
+      "name": "blake",
+      "photo": "user.png",
+      "email": "blake123@gmail.com",
+      "mobile": 1397138491,
+      "company": "bosstech",
+      "title": "78",
+      "id": "ImT5NcF"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "classmate"
+    },
+    {
+      "id": "2",
+      "name": "classmate"
+    }
+  ]
+}
